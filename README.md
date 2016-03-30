@@ -1,6 +1,6 @@
 # Concurrent data structures #
 
-The following repository contains a recompilation of the available concurrent data structures on the web that support at least lock-free or wait-free properties.
+This repository contains a recompilation of the available concurrent data structures on the web that support at least lock-free or wait-free properties. _If you know or own an implementation of a concurrent data structure, feel free to add it to the list_.
 
 | Category | Name | Properties  | Language | Source |
 | ----- |-----| -----|:-----:|-----|
@@ -35,6 +35,29 @@ The following repository contains a recompilation of the available concurrent da
 | List      | Michael List, Single LinkedList (ordered) |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_michael_list.html) |
 | List      | Single LinkedList (unordered) |  |C |[Liblfds](http://liblfds.org/) |
 | Map      | HashMap |  |C |[Liblfds](http://liblfds.org/) |
+| Map      | Spllited Ordered List Map |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_split_list_map.html) |
+| Map      | Stripped Map |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_striped_map.html) |
+| Map      | Michael HashMap |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_michael_hash_map.html) |
+| Map      | Skip List Map |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_skip_list_map.html) |
+| Map      | Feldman Hashmap |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_feldman_hash_map.html) |
+| Map      | HashMap |  |Java |[Oracle](https://docs.oracle.com/javase/tutorial/essential/concurrency/collections.html) |
+| Map      | Map |  |Scala |[Root package](http://www.scala-lang.org/api/2.11.6/index.html#package) |
+| Map      | Cuckoo Map |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_cuckoo_map.html) |
+| Tree      | Binary Tree |  |C |[Liblfds](http://liblfds.org/) |
+| Tree      | Ellen Binary Tree |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/namespacecds_1_1container_1_1ellen__bintree.html) |
+| Tree      | Suffix Tree |  |Java |[Concurrent Suffix Trees](https://github.com/npgall/concurrent-trees) |
+| Tree      | Radix Tree |  |Java |[Concurrent Suffix Trees](https://github.com/npgall/concurrent-trees) |
+| Tree      | B Tree |  |C |[B-tree project](https://github.com/malbrain/Btree-source-code/) |
+| Tree      | Red Black Tree |  |C |[University of Cambridge](http://www.cl.cam.ac.uk/research/srg/netos/projects/archive/lock-free/) |
+| Tree      | AVL Tree |  |C++ |[Concurrent Trees project](https://github.com/wichtounet/btrees/) |
+| Tree      | Bronson AVL Tree |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/namespacecds_1_1container_1_1bronson__avltree.html#details) |
+| Tree      | Trie |  |Scala |[Root package](http://www.scala-lang.org/api/2.11.6/index.html#package) |
+| Tree      | Heap |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/index.html) |
+| Set      | Cuckoo Set |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_cuckoo_map.html) |
+| Set      | Stripped Set |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_striped_set.html) |
+| Set      | Feldman Hash Set |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_feldman_hash_set.html) |
+| Set      | Skip List Set |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_skip_list_set.html) |
+| Set      | Sets |  |Ada |[NBAda](http://www.gidenstam.org/Ada/Non-Blocking/) |
 
 
 ## Contributors ##
