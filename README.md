@@ -21,6 +21,20 @@ The following repository contains a recompilation of the available concurrent da
 | Queue      | MSQueue |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_m_s_queue.html) |
 | Queue      | RWQueue |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_r_w_queue.html) |
 | Queue      | MoirQueue |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_moir_queue.html) |
+| Queue      | Optimistic Queue |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_optimistic_queue.html) |
+| Queue      | Segmented Queue |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_segmented_queue.html) |
+| Queue      | FCQueue |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_f_c_queue.html) |
+| Queue      | Tsigas Cycle Queue |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_tsigas_cycle_queue.html) |
+| Queue      | Vyukov MPMC Cycle Queue |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_vyukov_m_p_m_c_cycle_queue.html) |
+| Queue      | Ringbuffer (circular queue) |  |C |[Liblfds](http://liblfds.org/) |
+| Queue      | Ringbuffer (circular queue) |  |C++ |[Boost](http://www.boost.org/doc/libs/1_60_0/doc/html/lockfree.html) |
+| List      | LinkedList |  |C++ |[Lawrence Bush](http://people.csail.mit.edu/bushl2/rpi/project_web/page5.html) |
+| List      | Free List |  |C |[Liblfds](http://liblfds.org/) |
+| List      | Single LinkedList (ordered) |  |C |[Liblfds](http://liblfds.org/) |
+| List      | Lazy List, Single LinkedList (ordered) |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_lazy_list.html) |
+| List      | Michael List, Single LinkedList (ordered) |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_michael_list.html) |
+| List      | Single LinkedList (unordered) |  |C |[Liblfds](http://liblfds.org/) |
+| Map      | HashMap |  |C |[Liblfds](http://liblfds.org/) |
 
 
 ## Contributors ##
