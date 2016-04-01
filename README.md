@@ -7,8 +7,8 @@ This repository contains a recompilation of the available concurrent data struct
 | Stack      | Stack |lock-free |C |[Liblfds](http://liblfds.org/) |
 | Stack      | Stack |lock-free |C++ |[Boost](http://www.boost.org/doc/libs/1_60_0/doc/html/lockfree.html) |
 | Stack      | Stack | lock-free |Ada |[NBAda](http://www.gidenstam.org/Ada/Non-Blocking/) |
-| Stack      | Trieber Stack |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_treiber_stack.html) |
-| Stack      | FCStack |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_f_c_stack.html) |
+| Stack      | Trieber Stack |  lock-free (based on Treiber's stack algorithm) |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_treiber_stack.html) |
+| Stack      | FCStack |  lock-free, based on paper [2010] "Flat Combining and the Synchronization-Parallelism Tradeoff"|C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_f_c_stack.html) |
 | Queue      | Queue |  |C |[Liblfds](http://liblfds.org/) |
 | Queue      | Queue |  |C++ |[Boost](http://www.boost.org/doc/libs/1_60_0/doc/html/lockfree.html) |
 | Queue      | Queue |  |Java |[Oracle](https://docs.oracle.com/javase/tutorial/essential/concurrency/collections.html) |
