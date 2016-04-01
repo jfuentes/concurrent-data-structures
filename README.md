@@ -4,9 +4,9 @@ This repository contains a recompilation of the available concurrent data struct
 
 | Category | Name | Properties  | Language | Source |
 | ----- |-----| -----|:-----:|-----|
-| Stack      | Stack |  |C |[Liblfds](http://liblfds.org/) |
-| Stack      | Stack |  |C++ |[Boost](http://www.boost.org/doc/libs/1_60_0/doc/html/lockfree.html) |
-| Stack      | Stack |  |Ada |[NBAda](http://www.gidenstam.org/Ada/Non-Blocking/) |
+| Stack      | Stack | pop and push operations are lock-free |C |[Liblfds](http://liblfds.org/) |
+| Stack      | Stack | pop and push operations are lock-free |C++ |[Boost](http://www.boost.org/doc/libs/1_60_0/doc/html/lockfree.html) |
+| Stack      | Stack | pop and push operations are lock-free |Ada |[NBAda](http://www.gidenstam.org/Ada/Non-Blocking/) |
 | Stack      | Trieber Stack |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_treiber_stack.html) |
 | Stack      | FCStack |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_f_c_stack.html) |
 | Queue      | Queue |  |C |[Liblfds](http://liblfds.org/) |
