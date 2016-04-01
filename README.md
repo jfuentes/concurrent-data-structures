@@ -45,8 +45,8 @@ This repository contains a recompilation of the available concurrent data struct
 | Map      | Cuckoo Map |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_cuckoo_map.html) |
 | Tree      | Binary Tree |  |C |[Liblfds](http://liblfds.org/) |
 | Tree      | Ellen Binary Tree |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/namespacecds_1_1container_1_1ellen__bintree.html) |
-| Tree      | Suffix Tree |  |Java |[Concurrent Suffix Trees](https://github.com/npgall/concurrent-trees) |
-| Tree      | Radix Tree |Lookups are wait-free  |Java |[Concurrent Suffix Trees](https://github.com/npgall/concurrent-trees) |
+| Tree      | Suffix Tree | Lookups are lock-free. Write operations are blocking  |Java |[Concurrent Suffix Trees](https://github.com/npgall/concurrent-trees) |
+| Tree      | Radix Tree |Lookups are lock-free. Write operations are blocking  |Java |[Concurrent Suffix Trees](https://github.com/npgall/concurrent-trees) |
 | Tree      | B Tree |  |C |[B-tree project](https://github.com/malbrain/Btree-source-code/) |
 | Tree      | Red Black Tree |  |C |[University of Cambridge](http://www.cl.cam.ac.uk/research/srg/netos/projects/archive/lock-free/) |
 | Tree      | AVL Tree |  |C++ |[Concurrent Trees project](https://github.com/wichtounet/btrees/) |
