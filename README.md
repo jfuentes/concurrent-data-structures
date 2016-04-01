@@ -4,9 +4,9 @@ This repository contains a recompilation of the available concurrent data struct
 
 | Category | Name | Properties  | Language | Source |
 | ----- |-----| -----|:-----:|-----|
-| Stack      | Stack | pop and push operations are lock-free |C |[Liblfds](http://liblfds.org/) |
-| Stack      | Stack | pop and push operations are lock-free |C++ |[Boost](http://www.boost.org/doc/libs/1_60_0/doc/html/lockfree.html) |
-| Stack      | Stack | pop and push operations are lock-free |Ada |[NBAda](http://www.gidenstam.org/Ada/Non-Blocking/) |
+| Stack      | Stack |lock-free |C |[Liblfds](http://liblfds.org/) |
+| Stack      | Stack |lock-free |C++ |[Boost](http://www.boost.org/doc/libs/1_60_0/doc/html/lockfree.html) |
+| Stack      | Stack | lock-free |Ada |[NBAda](http://www.gidenstam.org/Ada/Non-Blocking/) |
 | Stack      | Trieber Stack |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_treiber_stack.html) |
 | Stack      | FCStack |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_f_c_stack.html) |
 | Queue      | Queue |  |C |[Liblfds](http://liblfds.org/) |
@@ -28,7 +28,7 @@ This repository contains a recompilation of the available concurrent data struct
 | Queue      | Vyukov MPMC Cycle Queue |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_vyukov_m_p_m_c_cycle_queue.html) |
 | Queue      | Ringbuffer (circular queue) |  |C |[Liblfds](http://liblfds.org/) |
 | Queue      | Ringbuffer (circular queue) |  |C++ |[Boost](http://www.boost.org/doc/libs/1_60_0/doc/html/lockfree.html) |
-| List      | LinkedList | lock-free operations |C++ |[Lawrence Bush](http://people.csail.mit.edu/bushl2/rpi/project_web/page5.html) |
+| List      | LinkedList | lock-free  |C++ |[Lawrence Bush](http://people.csail.mit.edu/bushl2/rpi/project_web/page5.html) |
 | List      | Free List |  |C |[Liblfds](http://liblfds.org/) |
 | List      | Single LinkedList (ordered) |  |C |[Liblfds](http://liblfds.org/) |
 | List      | Lazy List, Single LinkedList (ordered) |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_lazy_list.html) |
