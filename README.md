@@ -33,9 +33,7 @@ This repository contains a recompilation of the available concurrent data struct
 | List      | Michael List, Single LinkedList (ordered) | based on paper [2002] Maged Michael "High performance dynamic lock-free hash tables and list-based sets" |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_michael_list.html) |
 | List      | Single LinkedList (unordered) | lock-free |C |[Liblfds](http://liblfds.org/) |
 | Map      | HashMap | lock-free |C |[Liblfds](http://liblfds.org/) |
-| Map      | Spllited Ordered List Map |  based on split-ordered list algorithm discovered by Ori Shalev and Nir Shavit, see
-[2003] Ori Shalev, Nir Shavit "Split-Ordered Lists - Lock-free Resizable Hash Tables" and
-[2008] Nir Shavit "The Art of Multiprocessor Programming" |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_split_list_map.html) |
+| Map      | Spllited Ordered List Map |  based on split-ordered list algorithm discovered by Ori Shalev and Nir Shavit, see [2003] Ori Shalev, Nir Shavit "Split-Ordered Lists - Lock-free Resizable Hash Tables" and [2008] Nir Shavit "The Art of Multiprocessor Programming" |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_split_list_map.html) |
 | Map      | Stripped Map | striped hash map based on lock striping technique by [2008] Maurice Herlihy, Nir Shavit "The Art of Multiprocessor Programming"  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_striped_map.html) |
 | Map      | Michael HashMap | based on lock'free ordered list by [2002] Maged Michael "High performance dynamic lock-free hash tables and list-based sets" |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_michael_hash_map.html) |
 | Map      | Skip List Map | lock-free variant of skip-list implemented according to book
