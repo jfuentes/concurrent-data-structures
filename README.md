@@ -1,6 +1,6 @@
 # Concurrent data structures #
 
-This repository contains a recompilation of the available concurrent data structures on the web that support at least lock-free or wait-free properties. Some lock-based fine-grained synchronization approaches, that are competitive with lock-free approaches, are also considered. _If you know or own an implementation of a concurrent data structure, feel free to add it to the list_.
+This repository contains a compilation of the available concurrent data structures on the web that support at least lock-free or wait-free properties. Some lock-based fine-grained synchronization approaches, that are competitive with lock-free approaches, are also considered. _If you know or own an implementation of a concurrent data structure, feel free to add it to the list_.
 
 | Category | Name | Properties  | Language | Source |
 | ----- |-----| -----|:-----:|-----|
