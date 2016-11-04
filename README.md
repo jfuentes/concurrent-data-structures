@@ -42,11 +42,16 @@ This repository contains a compilation of the available concurrent data structur
 | Map      | Map |  |Scala |[Root package](http://www.scala-lang.org/api/2.11.6/index.html#package) |
 | Map      | Cuckoo Map |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_cuckoo_map.html) |
 | Tree      | Binary Tree | lock-free |C |[Liblfds](http://liblfds.org/) |
-| Tree      | Ellen Binary Tree |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/namespacecds_1_1container_1_1ellen__bintree.html) |
+| Tree | Binary Tree | non-blocking BST (external) | | [paper (2010)] (http://dl.acm.org/citation.cfm?id=1835736)| 
+| Tree      | Ellen's Binary Tree |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/namespacecds_1_1container_1_1ellen__bintree.html) |
+| Tree | Natarajan's Binary Search Tree | lock-free BST (external) | | [paper (2014)](http://dl.acm.org/citation.cfm?id=2555256)| 
+| Tree | Howley's Binary Search Tree | non-blocking internal BST | | [paper (2012)](http://dl.acm.org/citation.cfm?id=2312036) |
+| Tree | Ramachandran's Binary Search Tree | lock-free internal BST | | [paper (2015)](http://dl.acm.org/citation.cfm?id=2684472) |
 | Tree      | Suffix Tree | Lookups are lock-free. Write operations are blocking  |Java |[Concurrent Suffix Trees](https://github.com/npgall/concurrent-trees) |
 | Tree      | Radix Tree |Lookups are lock-free. Write operations are blocking  |Java |[Concurrent Suffix Trees](https://github.com/npgall/concurrent-trees) |
 | Tree      | B Tree |  |C |[B-tree project](https://github.com/malbrain/Btree-source-code/) |
 | Tree      | Red Black Tree |  |C |[University of Cambridge](http://www.cl.cam.ac.uk/research/srg/netos/projects/archive/lock-free/) |
+| Tree | Red Black Tree | Wait-free red black tree | | [paper](https://pdfs.semanticscholar.org/5afc/38731711a6516640e360c8f8394707bbff19.pdf) |
 | Tree      | Bronson AVL Tree |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/namespacecds_1_1container_1_1bronson__avltree.html#details) |
 | Tree      | Trie |  |Scala |[Root package](http://www.scala-lang.org/api/2.11.6/index.html#package) |
 | Tree      | Heap |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/index.html) |
