@@ -66,6 +66,7 @@ This repository contains a compilation of the available concurrent data structur
 
 ## Contributors ##
 
+* Joel Fuentes
 * Chien-Hao Chen
 * Matías Bustos
-* Joel Fuentes
+* Simon Giesecke
