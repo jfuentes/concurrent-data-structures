@@ -42,6 +42,7 @@ This repository contains a compilation of the available concurrent data structur
 | Map      | Map |  |Scala |[Root package](http://www.scala-lang.org/api/2.11.6/index.html#package) |
 | Map      | Cuckoo Map |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_cuckoo_map.html) |
 | Map      | Fast Concurrent Memoization Map | Fast Concurrent Memoization Map (fcmm) is an almost lock-free concurrent hashmap written in C++11 to be used for memoization in concurrent environments. | C++ | [fcmm](https://github.com/giacomodrago/fcmm) |
+| Map      | Junction | Junction is a library of concurrent data structures in C++. It contains several hash map implementations. | C++ | [junction](https://github.com/preshing/junction) |
 | Tree      | Binary Tree | lock-free |C |[Liblfds](http://liblfds.org/) |
 | Tree | Binary Tree | non-blocking BST (external) | | [paper (2010)] (http://dl.acm.org/citation.cfm?id=1835736)| 
 | Tree      | Ellen's Binary Tree |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/namespacecds_1_1container_1_1ellen__bintree.html) |
