@@ -63,6 +63,7 @@ This repository contains a compilation of the available concurrent data structur
 | Set      | Skip List Set | lock-free variant of skip-list implemented according to book [2008] M.Herlihy, N.Shavit "The Art of Multiprocessor Programming", chapter 14.4 "A Lock-Free Concurrent Skiplist"  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/classcds_1_1container_1_1_skip_list_set.html) |
 | Set      | Sets | lock-free sets of dynamic size |Ada |[NBAda](http://www.gidenstam.org/Ada/Non-Blocking/) |
 | Ring Buffer      | Ring Buffer | Lock-free multi-producer single-consumer (MPSC) ring buffer | C++ |[rmind/ringbuf](https://github.com/rmind/ringbuf) |
+| Container library      | Tervel | Wait-free | C++ |[Tervel](https://ucf-cs.github.io/Tervel/index.html) |
 
 
 ## Contributors ##
