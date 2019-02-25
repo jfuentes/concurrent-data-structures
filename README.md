@@ -48,7 +48,7 @@ This repository contains a compilation of the available concurrent data structur
 | Tree      | Ellen's Binary Tree |  |C++ |[cds](http://libcds.sourceforge.net/doc/cds-api/namespacecds_1_1container_1_1ellen__bintree.html) |
 | Tree | Natarajan's Binary Search Tree | lock-free BST (external) | | [paper (2014)](http://dl.acm.org/citation.cfm?id=2555256)| 
 | Tree | Howley's Binary Search Tree | non-blocking internal BST | | [paper (2012)](http://dl.acm.org/citation.cfm?id=2312036) |
-| Tree | Ramachandran's Binary Search Tree | lock-free internal BST | | [paper (2015)](http://dl.acm.org/citation.cfm?id=2684472) |
+| Tree | Ramachandran's Binary Search Tree | lock-free internal BST | C++ | [paper (2015)](http://dl.acm.org/citation.cfm?id=2684472) |
 | Tree      | Suffix Tree | Lookups are lock-free. Write operations are blocking  |Java |[Concurrent Suffix Trees](https://github.com/npgall/concurrent-trees) |
 | Tree      | Radix Tree |Lookups are lock-free. Write operations are blocking  |Java |[Concurrent Suffix Trees](https://github.com/npgall/concurrent-trees) |
 | Tree      | B Tree |  |C |[B-tree project](https://github.com/malbrain/Btree-source-code/) |
